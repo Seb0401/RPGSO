@@ -1,0 +1,23 @@
+# --- Documentos de contexto interno (guias de desarrollo) ---
+# Todos los .md quedan fuera del repo EXCEPTO el README publico.
+*.md
+!README.md
+docs/
+CLAUDE.md
+
+# --- Node / build ---
+node_modules/
+dist/
+coverage/
+*.log
+npm-debug.log*
+
+# --- Editores / SO ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# --- Estado local del simulador (discos guardados, escenarios de prueba) ---
+*.local
+.env
